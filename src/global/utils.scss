@@ -1,0 +1,11 @@
+@mixin borde($radio){
+    border-radius: $radio;
+    -webkit-border-radius: $radio;
+    -moz-border-radius: $radio;
+    -ms-border-radius: $radio;
+    -o-border-radius: $radio;
+}
+
+.contenedor{
+    @include borde(50px);
+}
